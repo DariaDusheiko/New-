@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>883</width>
+    <height>650</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>WIPILLs</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgba(255, 114, 150, 150);
+background-size: Auto Auto;</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QHBoxLayout" name="horizontalLayout_3">
+    <item>
+     <widget class="QFrame" name="verticalFrame">
+      <property name="maximumSize">
+       <size>
+        <width>341</width>
+        <height>531</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border-radius: 35px;
+background-color: rgb(255, 226, 237);
+border: 2px solid;
+border-color: rgb(255, 185, 219);</string>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout">
+       <item alignment="Qt::AlignHCenter|Qt::AlignVCenter">
+        <widget class="QLabel" name="REGlabel">
+         <property name="minimumSize">
+          <size>
+           <width>120</width>
+           <height>70</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>16777215</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="font">
+          <font>
+           <pointsize>-1</pointsize>
+           <bold>true</bold>
+           <stylestrategy>PreferDefault</stylestrategy>
+           <kerning>true</kerning>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(195, 122, 161);
+font-size: 20px;
+border: none;
+margin-top: 25px;</string>
+         </property>
+         <property name="text">
+          <string>РЕГИСТРАЦИЯ</string>
+         </property>
+        </widget>
+       </item>
+       <item alignment="Qt::AlignHCenter">
+        <widget class="QLabel" name="log_label_2">
+         <property name="styleSheet">
+          <string notr="true">color: rgb(95, 50, 70);
+margin-bottom: 7px;
+border: none;</string>
+         </property>
+         <property name="text">
+          <string>Логин</string>
+         </property>
+        </widget>
+       </item>
+       <item alignment="Qt::AlignHCenter">
+        <widget class="QLineEdit" name="login_lineEdit">
+         <property name="minimumSize">
+          <size>
+           <width>250</width>
+           <height>35</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">
+background-color: rgb(255, 247, 255);
+border-radius: 10px;
+border: 1px rgb(255, 255, 255);
+padding: 4px;
+color: #878787;
+border: 2px dotted;
+border-color: rgb(255, 185, 219);</string>
+         </property>
+        </widget>
+       </item>
+       <item alignment="Qt::AlignHCenter">
+        <widget class="QLabel" name="pas_label_3">
+         <property name="styleSheet">
+          <string notr="true">margin-top: 10px;
+margin-bottom: 7px;
+color: rgb(95, 50, 70);
+border: none;</string>
+         </property>
+         <property name="text">
+          <string>Пароль</string>
+         </property>
+        </widget>
+       </item>
+       <item alignment="Qt::AlignHCenter">
+        <widget class="QLineEdit" name="password_lineEdit_2">
+         <property name="minimumSize">
+          <size>
+           <width>250</width>
+           <height>35</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>188</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(255, 247, 255);
+border-radius: 10px;
+border: 1px rgb(255, 255, 255);
+padding: 4px;
+color: #878787;
+border: 2px dotted;
+border-color: rgb(255, 185, 219);</string>
+         </property>
+         <property name="echoMode">
+          <enum>QLineEdit::Password</enum>
+         </property>
+        </widget>
+       </item>
+       <item alignment="Qt::AlignHCenter">
+        <widget class="QLabel" name="repeatpass_label_4">
+         <property name="styleSheet">
+          <string notr="true">margin-top: 10px;
+margin-bottom: 7px;
+color: rgb(95, 50, 70);
+border: none;</string>
+         </property>
+         <property name="text">
+          <string>Повторите пароль</string>
+         </property>
+        </widget>
+       </item>
+       <item alignment="Qt::AlignHCenter">
+        <widget class="QLineEdit" name="repeatpassword_lineEdit_3">
+         <property name="minimumSize">
+          <size>
+           <width>250</width>
+           <height>35</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(255, 247, 255);
+border-radius: 10px;
+border: 1px rgb(255, 255, 255);
+padding: 4px;
+color: #878787;
+border: 2px dotted;
+border-color: rgb(255, 185, 219);</string>
+         </property>
+         <property name="echoMode">
+          <enum>QLineEdit::Password</enum>
+         </property>
+        </widget>
+       </item>
+       <item alignment="Qt::AlignHCenter">
+        <widget class="QLabel" name="gender_label_5">
+         <property name="styleSheet">
+          <string notr="true">margin-top: 10px;
+margin-bottom: 7px;
+color: rgb(95, 50, 70);
+border: none;</string>
+         </property>
+         <property name="text">
+          <string>Укажите вашу почту для регистрации</string>
+         </property>
+        </widget>
+       </item>
+       <item alignment="Qt::AlignHCenter">
+        <widget class="QLineEdit" name="lineEdit">
+         <property name="minimumSize">
+          <size>
+           <width>250</width>
+           <height>35</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(255, 247, 255);
+border-radius: 10px;
+border: 1px rgb(255, 255, 255);
+padding: 4px;
+color: #878787;
+border: 2px dotted;
+border-color: rgb(255, 185, 219);</string>
+         </property>
+        </widget>
+       </item>
+       <item alignment="Qt::AlignHCenter">
+        <widget class="QLabel" name="label">
+         <property name="styleSheet">
+          <string notr="true">color: rgb(255, 226, 237);
+border: none;</string>
+         </property>
+         <property name="text">
+          <string>Повторите ввод пароля.</string>
+         </property>
+        </widget>
+       </item>
+       <item alignment="Qt::AlignHCenter">
+        <widget class="QPushButton" name="pushButton">
+         <property name="minimumSize">
+          <size>
+           <width>180</width>
+           <height>70</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>160</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QPushButton{
+		background-color: rgba(255, 114, 150, 20);
+		border-radius: 10px;
+		font-weight: bold;
+		color: rgb(195, 122, 161);
+		margin: 17px;
+		border: 1px solid;
+		border-color: rgb(255, 169, 203);
+}
+
+QPushButton::hover{
+		color: rgb(255, 185, 219);
+		background-color: rgb(255, 247, 255);
+}</string>
+         </property>
+         <property name="text">
+          <string>Зарегистрироваться</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

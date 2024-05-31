@@ -1,0 +1,9 @@
+<RCC>
+  <qresource prefix="newPrefix">
+    <file>picture/rectgradient.jpg</file>
+    <file>picture/best.jpg</file>
+    <file>picture/tab_1.png</file>
+    <file>picture/ocr.jpg</file>
+    <file>picture/back.jpg</file>
+  </qresource>
+</RCC>

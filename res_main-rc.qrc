@@ -1,0 +1,12 @@
+<RCC>
+  <qresource prefix="newPrefix">
+    <file>picture/ui_app_application_computer_program_software_legacy_icon_261654.png</file>
+    <file>picture/clipboard_checklist_check_document_list_record_patient_icon_261627.png</file>
+    <file>picture/home_doctor_care_treatment_support_medical_hehcare_icon_261646.png</file>
+    <file>picture/emotsick_heh_hehcare_doctor_treatment_patient_icon_261608.png</file>
+    <file>picture/doctor_heh_analysis_hehcare_analytics_monitoring_patient_icon_261616.png</file>
+    <file>picture/pill.jpg</file>
+    <file>picture/back.jpg</file>
+    <file>picture/rectgradient.jpg</file>
+  </qresource>
+</RCC>
